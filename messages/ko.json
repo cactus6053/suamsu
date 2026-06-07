@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "siteName": "수암수",
+    "tagline": "산이 빚어낸 가장 맑은 한 모금"
+  },
+  "nav": {
+    "home": "홈",
+    "about": "회사 소개",
+    "product": "수원지·제품",
+    "distribution": "유통 계획",
+    "contact": "문의하기"
+  },
+  "home": {
+    "heroEyebrow": "Premium Natural Mineral Water",
+    "heroTitle": "산이 빚어낸\n가장 맑은 한 모금",
+    "heroSubtitle": "수암수는 한국 청정 산지에서 길어 올린 천연 미네랄워터입니다. 자연의 시간이 만든 순수함을 그대로 담아 전합니다.",
+    "heroCtaPrimary": "수원지 살펴보기",
+    "heroCtaSecondary": "회사 소개",
+    "sectionAboutTitle": "수암수가 걸어온 길",
+    "sectionAboutBody": "작은 산골 마을의 우물에서 시작해, 세계 시장을 향해 나아가는 청정 워터 브랜드입니다.",
+    "sectionProductTitle": "수원지에서 병까지",
+    "sectionProductBody": "지하 깊은 화강암층을 통과한 물을 그대로 병입(甁入)합니다. 그 사이엔 사람의 손이 거의 닿지 않습니다.",
+    "sectionDistributionTitle": "한국에서 세계로",
+    "sectionDistributionBody": "국내 주요 채널은 물론, 중동·동남아 시장 진출을 위한 파트너십을 단계적으로 확장하고 있습니다.",
+    "readMore": "자세히 보기"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "물 한 모금에 담긴 약속",
+    "lead": "수암수(秀岩水)는 \"빼어난 바위에서 솟는 물\"이라는 뜻을 담고 있습니다. 우리는 자연 본연의 맛과 안전성을 지키는 일을 회사의 첫 번째 책임으로 여깁니다.",
+    "missionTitle": "미션",
+    "missionBody": "가장 자연에 가까운 물을 가장 정직한 방식으로 전달합니다. 과장된 마케팅보다 검증된 수질, 화려한 포장보다 재활용 가능한 용기를 선택합니다.",
+    "visionTitle": "비전",
+    "visionBody": "2030년까지 아시아·중동 10개국에 \"믿을 수 있는 한국 생수\"의 기준을 만듭니다.",
+    "valuesTitle": "우리가 지키는 가치",
+    "values": [
+      {
+        "title": "자연 그대로",
+        "body": "수원지 보호 구역을 자체적으로 운영하며, 주변 환경의 변화를 매일 모니터링합니다."
+      },
+      {
+        "title": "투명한 품질",
+        "body": "전 제품 로트(lot)별 수질 시험 성적서를 공개하고, 누구나 조회할 수 있도록 합니다."
+      },
+      {
+        "title": "지속 가능한 유통",
+        "body": "경량 PET, 재활용 라벨, 단거리 물류를 통해 한 병당 탄소 배출을 줄여 갑니다."
+      }
+    ],
+    "historyTitle": "발자취",
+    "history": [
+      { "year": "2022", "body": "강원도 수원지 확보 및 환경 영향 평가 완료" },
+      { "year": "2023", "body": "생산 설비 구축, 자체 품질관리 체계 정비" },
+      { "year": "2024", "body": "국내 일부 채널에서 시범 출시" },
+      { "year": "2025", "body": "수출용 라인업 개발 및 해외 파트너 발굴" },
+      { "year": "2026", "body": "수암수 글로벌 브랜드 런칭 (예정)" }
+    ]
+  },
+  "product": {
+    "eyebrow": "Source & Product",
+    "title": "이 물은 어디서 왔는가",
+    "lead": "수암수의 수원지는 강원도 깊은 산자락, 인적이 드문 보호 구역에 자리합니다. 빗물이 화강암 사이를 흘러 지하 200m 이상 깊이에 다다르기까지, 자연은 천천히 일합니다.",
+    "sourceTitle": "수원지 이야기",
+    "sourceBody": "사계절 평균 수온 8–10℃의 안정적 대수층(帶水層)에서 채수합니다. 주변 5km 반경 내 산업 시설이 없는 청정 보호 구역입니다.",
+    "qualityTitle": "수질 한눈에 보기",
+    "qualityNotes": "* 표시 수치는 대표 시험 성적서 기준의 예시이며, 실제 로트별 수치는 제품 페이지에서 공개됩니다.",
+    "quality": [
+      { "label": "pH", "value": "7.4", "note": "약알칼리성, 부드러운 목 넘김" },
+      { "label": "TDS (총 용존 고형물)", "value": "약 95 mg/L", "note": "균형 잡힌 미네랄 함량" },
+      { "label": "칼슘", "value": "18 mg/L", "note": "" },
+      { "label": "마그네슘", "value": "5 mg/L", "note": "" },
+      { "label": "나트륨", "value": "6 mg/L", "note": "저나트륨" },
+      { "label": "실리카", "value": "12 mg/L", "note": "" }
+    ],
+    "processTitle": "수원지에서 병까지, 4단계",
+    "process": [
+      { "step": "01", "title": "자연 정수", "body": "지층을 통과하며 수십 년에 걸쳐 자연 정수가 이루어집니다." },
+      { "step": "02", "title": "심정 채수", "body": "오염 가능성을 차단하기 위해 폐쇄형 파이프로 직접 채수합니다." },
+      { "step": "03", "title": "최소 처리", "body": "미네랄 균형을 흩뜨리지 않도록 최소한의 여과·살균만 적용합니다." },
+      { "step": "04", "title": "현장 병입", "body": "수원지 인근 설비에서 곧바로 병입해 신선도를 유지합니다." }
+    ]
+  },
+  "distribution": {
+    "eyebrow": "Distribution Plan",
+    "title": "한국에서 세계로",
+    "lead": "수암수는 \"잘 만든 한국 생수\"를 글로벌 표준으로 만들기 위해 단계적 유통 전략을 수립했습니다.",
+    "phasesTitle": "단계별 로드맵",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "국내 시범 유통",
+        "body": "프리미엄 슈퍼·온라인 채널 중심으로 출시. 정기 구독 모델 동시 운영."
+      },
+      {
+        "phase": "Phase 2",
+        "title": "아시아 진출",
+        "body": "일본·싱가포르·홍콩의 호텔·F&B 채널을 시작으로, 동아시아 거점 확보."
+      },
+      {
+        "phase": "Phase 3",
+        "title": "중동 진출",
+        "body": "UAE·사우디 시장의 프리미엄 채널 및 호스피탈리티 파트너와 협업."
+      },
+      {
+        "phase": "Phase 4",
+        "title": "글로벌 확장",
+        "body": "유럽·북미 프리미엄 미네랄 워터 카테고리 진입."
+      }
+    ],
+    "partnersTitle": "함께할 파트너",
+    "partnersBody": "프리미엄 호텔, 파인 다이닝, 항공사, 그리고 신뢰할 수 있는 현지 디스트리뷰터와 협업합니다. 파트너십 문의는 언제든 환영합니다.",
+    "logisticsTitle": "물류와 지속가능성",
+    "logisticsBody": "수원지에서 항만까지의 단거리 운송, 컨테이너 적재 최적화, 재활용 PET 사용 확대를 통해 물 한 병당 환경 부담을 꾸준히 줄여 갑니다."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "함께 이야기를 시작해요",
+    "lead": "유통 파트너십, 호스피탈리티 도입, 미디어 문의 등 어떤 주제든 환영합니다. 영업일 기준 2일 이내에 답변드립니다.",
+    "emailLabel": "이메일",
+    "emailValue": "hello@suamsu.example",
+    "phoneLabel": "전화",
+    "phoneValue": "+82 2 000 0000",
+    "addressLabel": "주소",
+    "addressValue": "서울특별시 어딘가 00-0, 수암수 본사",
+    "formTitle": "메시지 보내기",
+    "formName": "이름",
+    "formCompany": "회사 / 소속",
+    "formEmail": "이메일",
+    "formMessage": "문의 내용",
+    "formSubmit": "보내기",
+    "formNote": "* 본 폼은 데모용입니다. 실제 발송은 연결되어 있지 않습니다."
+  },
+  "footer": {
+    "tagline": "산이 빚어낸 가장 맑은 한 모금.",
+    "rights": "© 2026 수암수(Suamsu). All rights reserved.",
+    "navTitle": "메뉴",
+    "contactTitle": "연락처",
+    "languageTitle": "언어"
+  }
+}

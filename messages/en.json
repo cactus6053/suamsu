@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "siteName": "Suamsu",
+    "tagline": "The clearest sip the mountains can give"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "product": "Source & Product",
+    "distribution": "Distribution",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroEyebrow": "Premium Natural Mineral Water",
+    "heroTitle": "The clearest sip\nthe mountains can give",
+    "heroSubtitle": "Suamsu is natural mineral water drawn from a protected source deep in Korea's pristine highlands. We bottle nature's quiet work, unchanged.",
+    "heroCtaPrimary": "See the source",
+    "heroCtaSecondary": "About us",
+    "sectionAboutTitle": "Our story",
+    "sectionAboutBody": "From a small mountain village well to a global premium water brand — built carefully, one source at a time.",
+    "sectionProductTitle": "From source to bottle",
+    "sectionProductBody": "Water filtered for decades through deep granite layers, bottled close to the source with minimal human touch.",
+    "sectionDistributionTitle": "From Korea to the world",
+    "sectionDistributionBody": "Anchored in domestic premium channels, we are expanding step by step into Middle Eastern and Southeast Asian markets.",
+    "readMore": "Read more"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "A promise in every sip",
+    "lead": "Suamsu (秀岩水) means \"water rising from a remarkable rock.\" Our first responsibility, as a company, is to protect the source — and to deliver its taste, exactly as nature made it.",
+    "missionTitle": "Mission",
+    "missionBody": "Deliver water that is as close to nature as possible, in the most honest way possible. We choose verified water quality over loud marketing, and recyclable packaging over decorative excess.",
+    "visionTitle": "Vision",
+    "visionBody": "By 2030, Suamsu will be the trusted standard for Korean premium water across 10+ markets in Asia and the Middle East.",
+    "valuesTitle": "What we stand for",
+    "values": [
+      {
+        "title": "Nature, untouched",
+        "body": "We run our own watershed protection zone and monitor the surrounding environment every single day."
+      },
+      {
+        "title": "Transparent quality",
+        "body": "We publish per-lot water quality reports — anyone can look them up."
+      },
+      {
+        "title": "Sustainable distribution",
+        "body": "Lighter PET, recyclable labels, and shorter logistics chains — we lower the footprint of every single bottle."
+      }
+    ],
+    "historyTitle": "Milestones",
+    "history": [
+      { "year": "2022", "body": "Source acquired in Gangwon Province; environmental impact study completed." },
+      { "year": "2023", "body": "Production facility built; in-house quality management established." },
+      { "year": "2024", "body": "Pilot launch through selected domestic channels." },
+      { "year": "2025", "body": "Export-grade lineup developed; first overseas partners identified." },
+      { "year": "2026", "body": "Suamsu global brand launch (planned)." }
+    ]
+  },
+  "product": {
+    "eyebrow": "Source & Product",
+    "title": "Where this water comes from",
+    "lead": "Our source lies deep in the mountains of Gangwon Province, inside a protected zone with almost no human presence. Rainwater seeps through granite to over 200 metres below the surface — nature works slowly here.",
+    "sourceTitle": "About the source",
+    "sourceBody": "We draw from a stable aquifer that holds steady at 8–10 °C year-round, located inside a protected zone with no industrial activity within a 5 km radius.",
+    "qualityTitle": "Water quality, at a glance",
+    "qualityNotes": "* The values shown are representative test results. Per-lot reports are published on each product page.",
+    "quality": [
+      { "label": "pH", "value": "7.4", "note": "Slightly alkaline, smooth on the palate" },
+      { "label": "TDS (total dissolved solids)", "value": "~95 mg/L", "note": "Balanced mineral profile" },
+      { "label": "Calcium", "value": "18 mg/L", "note": "" },
+      { "label": "Magnesium", "value": "5 mg/L", "note": "" },
+      { "label": "Sodium", "value": "6 mg/L", "note": "Low-sodium" },
+      { "label": "Silica", "value": "12 mg/L", "note": "" }
+    ],
+    "processTitle": "From source to bottle in 4 steps",
+    "process": [
+      { "step": "01", "title": "Natural filtration", "body": "Decades of slow filtration through deep geological layers do the real work." },
+      { "step": "02", "title": "Deep-well intake", "body": "A closed pipe system draws water directly, with no exposure to surface contaminants." },
+      { "step": "03", "title": "Minimal processing", "body": "We apply only the lightest filtration and sterilisation — never disturbing the mineral balance." },
+      { "step": "04", "title": "Bottled at source", "body": "Filling happens on-site, preserving the water at its freshest." }
+    ]
+  },
+  "distribution": {
+    "eyebrow": "Distribution Plan",
+    "title": "From Korea to the world",
+    "lead": "Suamsu is built around a phased distribution strategy — one that turns \"well-made Korean water\" into a global category standard.",
+    "phasesTitle": "Roadmap",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Domestic pilot",
+        "body": "Launch through premium grocery and online channels, alongside a recurring subscription offer."
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Asia expansion",
+        "body": "Enter Japan, Singapore, and Hong Kong via hospitality and F&B channels."
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Middle East entry",
+        "body": "Partner with premium channels and hospitality leaders in the UAE and Saudi Arabia."
+      },
+      {
+        "phase": "Phase 4",
+        "title": "Global expansion",
+        "body": "Enter the European and North American premium mineral water category."
+      }
+    ],
+    "partnersTitle": "Who we partner with",
+    "partnersBody": "Premium hotels, fine-dining restaurants, airlines, and trusted local distributors. Partnership enquiries are always welcome.",
+    "logisticsTitle": "Logistics & sustainability",
+    "logisticsBody": "Short-haul transport from source to port, optimised container loading, and increasing use of recycled PET — every bottle carries a smaller footprint over time."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's start a conversation",
+    "lead": "Distribution partnerships, hospitality programmes, media enquiries — all welcome. We reply within two business days.",
+    "emailLabel": "Email",
+    "emailValue": "hello@suamsu.example",
+    "phoneLabel": "Phone",
+    "phoneValue": "+82 2 000 0000",
+    "addressLabel": "Address",
+    "addressValue": "Suamsu HQ, Seoul, Republic of Korea",
+    "formTitle": "Send a message",
+    "formName": "Name",
+    "formCompany": "Company / Organisation",
+    "formEmail": "Email",
+    "formMessage": "Your message",
+    "formSubmit": "Send",
+    "formNote": "* This form is for demo purposes; submissions are not connected to a backend."
+  },
+  "footer": {
+    "tagline": "The clearest sip the mountains can give.",
+    "rights": "© 2026 Suamsu. All rights reserved.",
+    "navTitle": "Menu",
+    "contactTitle": "Contact",
+    "languageTitle": "Language"
+  }
+}
