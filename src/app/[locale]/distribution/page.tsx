@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { PageHeader } from '@/components/PageHeader';
@@ -37,6 +38,17 @@ function DistributionView() {
         title={t('title')}
         lead={t('lead')}
       />
+
+      <section className="mx-auto max-w-5xl px-6">
+        <div className="relative aspect-[21/9] overflow-hidden rounded-2xl border border-slate-200">
+          <Image
+            src="/images/hero-valley.jpg"
+            alt=""
+            fill
+            className="object-cover"
+          />
+        </div>
+      </section>
 
       <section className="mx-auto max-w-5xl px-6 py-16 md:py-20">
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900">

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
@@ -35,17 +36,18 @@ function HomeView() {
   return (
     <>
       <section className="relative overflow-hidden">
+        <div aria-hidden className="absolute inset-x-0 top-0 -z-20 h-[520px]">
+          <Image
+            src="/images/hero-wide.jpg"
+            alt=""
+            fill
+            priority
+            className="object-cover"
+          />
+        </div>
         <div
           aria-hidden
-          className="absolute inset-0 -z-10 bg-gradient-to-br from-brand-50 via-white to-white"
-        />
-        <div
-          aria-hidden
-          className="absolute inset-x-0 top-0 -z-10 h-[420px] wave-mask"
-          style={{
-            backgroundImage:
-              'radial-gradient(60% 60% at 50% 0%, rgba(14, 165, 233, 0.18), transparent 70%)',
-          }}
+          className="absolute inset-x-0 top-0 -z-10 h-[520px] bg-gradient-to-b from-white/40 via-white/80 to-white"
         />
         <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-brand-700">

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { PageHeader } from '@/components/PageHeader';
@@ -34,6 +35,10 @@ function ProductView() {
     title: string;
     body: string;
   }>;
+  const catchmentStats = t.raw('catchmentStats') as Array<{
+    label: string;
+    value: string;
+  }>;
 
   return (
     <>
@@ -54,19 +59,15 @@ function ProductView() {
             </p>
           </div>
           <div className="md:col-span-3">
-            <div
-              aria-hidden
-              className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-brand-100 via-brand-200 to-brand-400"
-            >
-              <div
-                className="absolute inset-0 opacity-60"
-                style={{
-                  backgroundImage:
-                    'radial-gradient(120% 80% at 30% 10%, rgba(255,255,255,0.7) 0%, transparent 60%), radial-gradient(80% 80% at 80% 90%, rgba(8, 47, 73, 0.45) 0%, transparent 60%)',
-                }}
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200">
+              <Image
+                src="/images/source-cliff.jpg"
+                alt=""
+                fill
+                className="object-cover"
               />
               <div className="absolute bottom-4 start-4 rounded-full bg-white/85 px-3 py-1 text-xs font-medium text-brand-800 backdrop-blur">
-                Gangwon, Korea · 200m+ aquifer
+                Yeosu, Korea · 400m+ volcanic aquifer
               </div>
             </div>
           </div>
@@ -124,6 +125,44 @@ function ProductView() {
             </li>
           ))}
         </ol>
+      </section>
+
+      <section className="bg-slate-50 border-y border-slate-200">
+        <div className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+          <div className="grid gap-10 md:grid-cols-2 md:items-center">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 md:order-2">
+              <Image
+                src="/images/catchment-field.jpg"
+                alt=""
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="md:order-1">
+              <h2 className="text-2xl font-semibold tracking-tight text-slate-900">
+                {t('catchmentTitle')}
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-slate-700">
+                {t('catchmentBody')}
+              </p>
+              <dl className="mt-6 grid grid-cols-2 gap-4">
+                {catchmentStats.map((s, i) => (
+                  <div
+                    key={i}
+                    className="rounded-xl bg-white border border-slate-200 p-4"
+                  >
+                    <dt className="text-xs font-semibold uppercase tracking-wider text-slate-500">
+                      {s.label}
+                    </dt>
+                    <dd className="mt-1 text-sm font-medium text-slate-900">
+                      {s.value}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );

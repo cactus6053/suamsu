@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { PageHeader } from '@/components/PageHeader';
@@ -26,6 +27,10 @@ function AboutView() {
   const t = useTranslations('about');
   const values = t.raw('values') as Array<{ title: string; body: string }>;
   const history = t.raw('history') as Array<{ year: string; body: string }>;
+  const siteStats = t.raw('siteStats') as Array<{
+    label: string;
+    value: string;
+  }>;
 
   return (
     <>
@@ -52,6 +57,41 @@ function AboutView() {
             <p className="mt-3 text-base leading-relaxed text-slate-200">
               {t('visionBody')}
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-slate-50 border-y border-slate-200">
+        <div className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+          <div className="grid gap-10 md:grid-cols-2 md:items-center">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200">
+              <Image
+                src="/images/facility-site.jpg"
+                alt=""
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
+                {t('siteTitle')}
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-slate-700">
+                {t('siteBody')}
+              </p>
+              <dl className="mt-6 grid grid-cols-2 gap-4">
+                {siteStats.map((s, i) => (
+                  <div key={i} className="rounded-xl bg-white border border-slate-200 p-4">
+                    <dt className="text-xs font-semibold uppercase tracking-wider text-slate-500">
+                      {s.label}
+                    </dt>
+                    <dd className="mt-1 text-sm font-medium text-slate-900">
+                      {s.value}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
           </div>
         </div>
       </section>

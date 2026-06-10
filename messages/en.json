@@ -11,15 +11,15 @@
     "contact": "Contact"
   },
   "home": {
-    "heroEyebrow": "Premium Natural Mineral Water",
+    "heroEyebrow": "Premium Volcanic Mineral Water",
     "heroTitle": "The clearest sip\nthe mountains can give",
-    "heroSubtitle": "Suamsu is natural mineral water drawn from a protected source deep in Korea's pristine highlands. We bottle nature's quiet work, unchanged.",
+    "heroSubtitle": "Suamsu is premium mineral water drawn from a volcanic rock aquifer in an isolated, pollution-free watershed in Yeosu, Jeollanam-do. We bottle nature's quiet work, unchanged.",
     "heroCtaPrimary": "See the source",
     "heroCtaSecondary": "About us",
     "sectionAboutTitle": "Our story",
-    "sectionAboutBody": "From a small mountain village well to a global premium water brand — built carefully, one source at a time.",
+    "sectionAboutBody": "From volcanic bedrock in Yeosu, Jeollanam-do, to a global premium water brand — built carefully, one source at a time.",
     "sectionProductTitle": "From source to bottle",
-    "sectionProductBody": "Water filtered for decades through deep granite layers, bottled close to the source with minimal human touch.",
+    "sectionProductBody": "Water filtered through roughly 400m of volcanic bedrock is bottled as it is, with almost no human touch along the way.",
     "sectionDistributionTitle": "From Korea to the world",
     "sectionDistributionBody": "Anchored in domestic premium channels, we are expanding step by step into Middle Eastern and Southeast Asian markets.",
     "readMore": "Read more"
@@ -27,7 +27,7 @@
   "about": {
     "eyebrow": "About Us",
     "title": "A promise in every sip",
-    "lead": "Suamsu (秀岩水) means \"water rising from a remarkable rock.\" Our first responsibility, as a company, is to protect the source — and to deliver its taste, exactly as nature made it.",
+    "lead": "Suamsu (秀岩水) means \"water rising from a remarkable rock.\" Our first responsibility, as a company, is to protect the purity and safety of the water drawn from a volcanic rock aquifer in Yeosu, Jeollanam-do.",
     "missionTitle": "Mission",
     "missionBody": "Deliver water that is as close to nature as possible, in the most honest way possible. We choose verified water quality over loud marketing, and recyclable packaging over decorative excess.",
     "visionTitle": "Vision",
@@ -36,92 +36,108 @@
     "values": [
       {
         "title": "Nature, untouched",
-        "body": "We run our own watershed protection zone and monitor the surrounding environment every single day."
+        "body": "We manage the source's catchment area ourselves and continuously monitor the surrounding environment."
       },
       {
         "title": "Transparent quality",
-        "body": "We publish per-lot water quality reports — anyone can look them up."
+        "body": "Every well is tested against all 48 items of Korea's drinking water standards, and the test reports are open for anyone to review."
       },
       {
         "title": "Sustainable distribution",
-        "body": "Lighter PET, recyclable labels, and shorter logistics chains — we lower the footprint of every single bottle."
+        "body": "Premium glass bottles, recyclable aluminium cans, and short-haul logistics — we lower the footprint of every single bottle."
       }
     ],
     "historyTitle": "Milestones",
     "history": [
-      { "year": "2022", "body": "Source acquired in Gangwon Province; environmental impact study completed." },
-      { "year": "2023", "body": "Production facility built; in-house quality management established." },
-      { "year": "2024", "body": "Pilot launch through selected domestic channels." },
-      { "year": "2025", "body": "Export-grade lineup developed; first overseas partners identified." },
-      { "year": "2026", "body": "Suamsu global brand launch (planned)." }
+      { "year": "2024", "body": "Secured a 28,644㎡ source site in Gajang-ri, Yulchon-myeon, Yeosu, and began initial geological and hydrological surveys." },
+      { "year": "2025", "body": "Obtained preliminary approval for spring water well development (Jeollanam-do Water Resources Division, May 2025 – Apr 2027)." },
+      { "year": "2026", "body": "Conducted environmental impact assessment and detailed water quality analysis — passed all 48 items of the drinking water standard." },
+      { "year": "2027", "body": "Target completion of production facility and start of commercial production." },
+      { "year": "Beyond", "body": "Phased expansion from a domestic launch into premium Asian and Middle Eastern markets." }
+    ],
+    "siteTitle": "The source at a glance",
+    "siteBody": "Suamsu begins on a 28,644㎡ site in Gajang-ri, Yulchon-myeon, Yeosu, set within an isolated watershed free of pollution sources.",
+    "siteStats": [
+      { "label": "Location", "value": "Yulchon-myeon, Yeosu, Jeollanam-do" },
+      { "label": "Site area", "value": "28,644㎡" },
+      { "label": "Catchment area", "value": "~640ha (6,400,000㎡)" },
+      { "label": "Annual rainfall", "value": "1,503mm — above the national average" }
     ]
   },
   "product": {
     "eyebrow": "Source & Product",
     "title": "Where this water comes from",
-    "lead": "Our source lies deep in the mountains of Gangwon Province, inside a protected zone with almost no human presence. Rainwater seeps through granite to over 200 metres below the surface — nature works slowly here.",
+    "lead": "Our source lies in Yulchon-myeon, Yeosu, Jeollanam-do, inside a protected watershed with no industrial facilities. Rainwater seeps through volcanic bedrock to roughly 400 metres below the surface — nature works slowly here.",
     "sourceTitle": "About the source",
-    "sourceBody": "We draw from a stable aquifer that holds steady at 8–10 °C year-round, located inside a protected zone with no industrial activity within a 5 km radius.",
+    "sourceBody": "Yeosu's annual rainfall of 1,503mm exceeds the national average, feeding a stable volcanic aquifer with an 11.3% recharge rate. We draw from a fully protected zone with no industrial activity within a 5km radius.",
     "qualityTitle": "Water quality, at a glance",
-    "qualityNotes": "* The values shown are representative test results. Per-lot reports are published on each product page.",
+    "qualityNotes": "* Results from a Eurofins Korea test report on samples collected in January 2026. The water passed all 48 items of Korea's drinking water standards.",
     "quality": [
-      { "label": "pH", "value": "7.4", "note": "Slightly alkaline, smooth on the palate" },
-      { "label": "TDS (total dissolved solids)", "value": "~95 mg/L", "note": "Balanced mineral profile" },
-      { "label": "Calcium", "value": "18 mg/L", "note": "" },
-      { "label": "Magnesium", "value": "5 mg/L", "note": "" },
-      { "label": "Sodium", "value": "6 mg/L", "note": "Low-sodium" },
-      { "label": "Silica", "value": "12 mg/L", "note": "" }
+      { "label": "pH", "value": "7.2 – 8.0", "note": "Slightly alkaline, smooth on the palate" },
+      { "label": "Turbidity", "value": "0.09 NTU", "note": "Standard: 1 NTU or less" },
+      { "label": "Nitrate nitrogen", "value": "0.2 – 0.8 mg/L", "note": "Standard: 10 mg/L or less" },
+      { "label": "Chloride ion", "value": "4.5 – 5.8 mg/L", "note": "Standard: 250 mg/L or less" },
+      { "label": "Uranium", "value": "0.0003 – 0.0016 mg/L", "note": "Standard: 0.03 mg/L or less, trace levels" },
+      { "label": "Microbiological items (48 total)", "value": "Not detected", "note": "Pass" }
     ],
     "processTitle": "From source to bottle in 4 steps",
     "process": [
-      { "step": "01", "title": "Natural filtration", "body": "Decades of slow filtration through deep geological layers do the real work." },
-      { "step": "02", "title": "Deep-well intake", "body": "A closed pipe system draws water directly, with no exposure to surface contaminants." },
+      { "step": "01", "title": "Natural filtration", "body": "Rainwater seeps through layers of volcanic basalt to a depth of roughly 400m, naturally filtered over decades." },
+      { "step": "02", "title": "Deep-well intake", "body": "A closed pipe system draws water directly from wells 106–110m deep, with no exposure to surface contaminants." },
       { "step": "03", "title": "Minimal processing", "body": "We apply only the lightest filtration and sterilisation — never disturbing the mineral balance." },
-      { "step": "04", "title": "Bottled at source", "body": "Filling happens on-site, preserving the water at its freshest." }
+      { "step": "04", "title": "Bottled at source", "body": "Filling happens on-site at the Yeosu source, preserving the water at its freshest." }
+    ],
+    "catchmentTitle": "Catchment area & water stability",
+    "catchmentBody": "The catchment surrounding the source is an isolated watershed cut off from outside pollution, allowing rainwater to recharge steadily and keep both quantity and quality stable.",
+    "catchmentStats": [
+      { "label": "Recharge rate", "value": "11.3%" },
+      { "label": "Well depth", "value": "PW-1: 110m · PW-2: 106m" },
+      { "label": "Pollution sources", "value": "None within a 5km radius" },
+      { "label": "Water testing", "value": "All 48 items passed (Eurofins)" }
     ]
   },
   "distribution": {
     "eyebrow": "Distribution Plan",
     "title": "From Korea to the world",
-    "lead": "Suamsu is built around a phased distribution strategy — one that turns \"well-made Korean water\" into a global category standard.",
+    "lead": "Suamsu is built around a phased distribution strategy — one that turns \"well-made Korean volcanic mineral water\" into a global category standard.",
     "phasesTitle": "Roadmap",
     "phases": [
       {
         "phase": "Phase 1",
-        "title": "Domestic pilot",
-        "body": "Launch through premium grocery and online channels, alongside a recurring subscription offer."
+        "title": "Domestic launch foundation",
+        "body": "Secure stable initial volume through OEM/ODM partnerships with major retailers, while introducing our own premium brand through online channels."
       },
       {
         "phase": "Phase 2",
-        "title": "Asia expansion",
-        "body": "Enter Japan, Singapore, and Hong Kong via hospitality and F&B channels."
+        "title": "Domestic hospitality expansion",
+        "body": "Expand into premium hotels, fine dining, and airline lounges across Korea."
       },
       {
         "phase": "Phase 3",
         "title": "Middle East entry",
-        "body": "Partner with premium channels and hospitality leaders in the UAE and Saudi Arabia."
+        "body": "Pursue Halal and other local quality certifications, and prepare partnerships with premium and hospitality channels in the UAE and across the Middle East."
       },
       {
         "phase": "Phase 4",
         "title": "Global expansion",
-        "body": "Enter the European and North American premium mineral water category."
+        "body": "Pursue gradual entry into the premium mineral water category in Asia and Europe."
       }
     ],
     "partnersTitle": "Who we partner with",
     "partnersBody": "Premium hotels, fine-dining restaurants, airlines, and trusted local distributors. Partnership enquiries are always welcome.",
     "logisticsTitle": "Logistics & sustainability",
-    "logisticsBody": "Short-haul transport from source to port, optimised container loading, and increasing use of recycled PET — every bottle carries a smaller footprint over time."
+    "logisticsBody": "Our location near Yeosu's industrial port shortens the route from source to shipping. Premium glass bottles and recyclable aluminium cans steadily reduce the environmental footprint of every bottle."
   },
   "contact": {
     "eyebrow": "Contact",
     "title": "Let's start a conversation",
     "lead": "Distribution partnerships, hospitality programmes, media enquiries — all welcome. We reply within two business days.",
     "emailLabel": "Email",
-    "emailValue": "hello@suamsu.example",
+    "emailValue": "ck6053@naver.com",
     "phoneLabel": "Phone",
-    "phoneValue": "+82 2 000 0000",
+    "phoneValue": "+82 10-3607-3010",
     "addressLabel": "Address",
-    "addressValue": "Suamsu HQ, Seoul, Republic of Korea",
+    "addressValue": "8 Gajang-ri, Yulchon-myeon, Yeosu, Jeollanam-do, Republic of Korea (source site)",
     "formTitle": "Send a message",
     "formName": "Name",
     "formCompany": "Company / Organisation",
