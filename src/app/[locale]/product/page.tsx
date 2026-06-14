@@ -20,10 +20,10 @@ export default async function ProductPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <ProductView />;
+  return <ProductView locale={locale} />;
 }
 
-function ProductView() {
+function ProductView({ locale }: { locale: string }) {
   const t = useTranslations('product');
   const quality = t.raw('quality') as Array<{
     label: string;
@@ -125,6 +125,27 @@ function ProductView() {
             </li>
           ))}
         </ol>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-16 md:py-24">
+        <div className="grid gap-10 md:grid-cols-2 md:items-center">
+          <div className="relative aspect-square overflow-hidden rounded-2xl border border-slate-200 bg-white">
+            <Image
+              src={`/images/product-${locale}.jpg`}
+              alt=""
+              fill
+              className="object-contain"
+            />
+          </div>
+          <div>
+            <h2 className="text-2xl font-semibold tracking-tight text-slate-900">
+              {t('bottleTitle')}
+            </h2>
+            <p className="mt-4 text-base leading-relaxed text-slate-700">
+              {t('bottleBody')}
+            </p>
+          </div>
+        </div>
       </section>
 
       <section className="bg-slate-50 border-y border-slate-200">

@@ -49,19 +49,46 @@
     ],
     "historyTitle": "Milestones",
     "history": [
-      { "year": "2024", "body": "Secured a 28,644㎡ source site in Gajang-ri, Yulchon-myeon, Yeosu, and began initial geological and hydrological surveys." },
-      { "year": "2025", "body": "Obtained preliminary approval for spring water well development (Jeollanam-do Water Resources Division, May 2025 – Apr 2027)." },
-      { "year": "2026", "body": "Conducted environmental impact assessment and detailed water quality analysis — passed all 48 items of the drinking water standard." },
-      { "year": "2027", "body": "Target completion of production facility and start of commercial production." },
-      { "year": "Beyond", "body": "Phased expansion from a domestic launch into premium Asian and Middle Eastern markets." }
+      {
+        "year": "2024",
+        "body": "Secured a 28,644㎡ source site in Gajang-ri, Yulchon-myeon, Yeosu, and began initial geological and hydrological surveys."
+      },
+      {
+        "year": "2025",
+        "body": "Obtained preliminary approval for spring water well development (Jeollanam-do Water Resources Division, May 2025 – Apr 2027)."
+      },
+      {
+        "year": "2026",
+        "body": "Conducted environmental impact assessment and detailed water quality analysis — passed all 48 items of the drinking water standard."
+      },
+      {
+        "year": "2027",
+        "body": "Target completion of production facility and start of commercial production."
+      },
+      {
+        "year": "Beyond",
+        "body": "Phased expansion from a domestic launch into premium Asian and Middle Eastern markets."
+      }
     ],
     "siteTitle": "The source at a glance",
     "siteBody": "Suamsu begins on a 28,644㎡ site in Gajang-ri, Yulchon-myeon, Yeosu, set within an isolated watershed free of pollution sources.",
     "siteStats": [
-      { "label": "Location", "value": "Yulchon-myeon, Yeosu, Jeollanam-do" },
-      { "label": "Site area", "value": "28,644㎡" },
-      { "label": "Catchment area", "value": "~640ha (6,400,000㎡)" },
-      { "label": "Annual rainfall", "value": "1,503mm — above the national average" }
+      {
+        "label": "Location",
+        "value": "Yulchon-myeon, Yeosu, Jeollanam-do"
+      },
+      {
+        "label": "Site area",
+        "value": "28,644㎡"
+      },
+      {
+        "label": "Catchment area",
+        "value": "~640ha (6,400,000㎡)"
+      },
+      {
+        "label": "Annual rainfall",
+        "value": "1,503mm — above the national average"
+      }
     ]
   },
   "product": {
@@ -73,27 +100,81 @@
     "qualityTitle": "Water quality, at a glance",
     "qualityNotes": "* Results from a Eurofins Korea test report on samples collected in January 2026. The water passed all 48 items of Korea's drinking water standards.",
     "quality": [
-      { "label": "pH", "value": "7.2 – 8.0", "note": "Slightly alkaline, smooth on the palate" },
-      { "label": "Turbidity", "value": "0.09 NTU", "note": "Standard: 1 NTU or less" },
-      { "label": "Nitrate nitrogen", "value": "0.2 – 0.8 mg/L", "note": "Standard: 10 mg/L or less" },
-      { "label": "Chloride ion", "value": "4.5 – 5.8 mg/L", "note": "Standard: 250 mg/L or less" },
-      { "label": "Uranium", "value": "0.0003 – 0.0016 mg/L", "note": "Standard: 0.03 mg/L or less, trace levels" },
-      { "label": "Microbiological items (48 total)", "value": "Not detected", "note": "Pass" }
+      {
+        "label": "pH",
+        "value": "7.2 – 8.0",
+        "note": "Slightly alkaline, smooth on the palate"
+      },
+      {
+        "label": "Turbidity",
+        "value": "0.09 NTU",
+        "note": "Standard: 1 NTU or less"
+      },
+      {
+        "label": "Nitrate nitrogen",
+        "value": "0.2 – 0.8 mg/L",
+        "note": "Standard: 10 mg/L or less"
+      },
+      {
+        "label": "Chloride ion",
+        "value": "4.5 – 5.8 mg/L",
+        "note": "Standard: 250 mg/L or less"
+      },
+      {
+        "label": "Uranium",
+        "value": "0.0003 – 0.0016 mg/L",
+        "note": "Standard: 0.03 mg/L or less, trace levels"
+      },
+      {
+        "label": "Microbiological items (48 total)",
+        "value": "Not detected",
+        "note": "Pass"
+      }
     ],
     "processTitle": "From source to bottle in 4 steps",
     "process": [
-      { "step": "01", "title": "Natural filtration", "body": "Rainwater seeps through layers of volcanic basalt to a depth of roughly 400m, naturally filtered over decades." },
-      { "step": "02", "title": "Deep-well intake", "body": "A closed pipe system draws water directly from wells 106–110m deep, with no exposure to surface contaminants." },
-      { "step": "03", "title": "Minimal processing", "body": "We apply only the lightest filtration and sterilisation — never disturbing the mineral balance." },
-      { "step": "04", "title": "Bottled at source", "body": "Filling happens on-site at the Yeosu source, preserving the water at its freshest." }
+      {
+        "step": "01",
+        "title": "Natural filtration",
+        "body": "Rainwater seeps through layers of volcanic basalt to a depth of roughly 400m, naturally filtered over decades."
+      },
+      {
+        "step": "02",
+        "title": "Deep-well intake",
+        "body": "A closed pipe system draws water directly from wells 106–110m deep, with no exposure to surface contaminants."
+      },
+      {
+        "step": "03",
+        "title": "Minimal processing",
+        "body": "We apply only the lightest filtration and sterilisation — never disturbing the mineral balance."
+      },
+      {
+        "step": "04",
+        "title": "Bottled at source",
+        "body": "Filling happens on-site at the Yeosu source, preserving the water at its freshest."
+      }
     ],
+    "bottleTitle": "Suamsu, the finished bottle",
+    "bottleBody": "A premium bottle that carries the water exactly as it rises from the volcanic aquifer in Yeosu. A restrained design reflects the landscape and purity of the source — telling the Suamsu story in every bottle.",
     "catchmentTitle": "Catchment area & water stability",
     "catchmentBody": "The catchment surrounding the source is an isolated watershed cut off from outside pollution, allowing rainwater to recharge steadily and keep both quantity and quality stable.",
     "catchmentStats": [
-      { "label": "Recharge rate", "value": "11.3%" },
-      { "label": "Well depth", "value": "PW-1: 110m · PW-2: 106m" },
-      { "label": "Pollution sources", "value": "None within a 5km radius" },
-      { "label": "Water testing", "value": "All 48 items passed (Eurofins)" }
+      {
+        "label": "Recharge rate",
+        "value": "11.3%"
+      },
+      {
+        "label": "Well depth",
+        "value": "PW-1: 110m · PW-2: 106m"
+      },
+      {
+        "label": "Pollution sources",
+        "value": "None within a 5km radius"
+      },
+      {
+        "label": "Water testing",
+        "value": "All 48 items passed (Eurofins)"
+      }
     ]
   },
   "distribution": {
@@ -137,14 +218,7 @@
     "phoneLabel": "Phone",
     "phoneValue": "+82 10-3607-3010",
     "addressLabel": "Address",
-    "addressValue": "8 Gajang-ri, Yulchon-myeon, Yeosu, Jeollanam-do, Republic of Korea (source site)",
-    "formTitle": "Send a message",
-    "formName": "Name",
-    "formCompany": "Company / Organisation",
-    "formEmail": "Email",
-    "formMessage": "Your message",
-    "formSubmit": "Send",
-    "formNote": "* This form is for demo purposes; submissions are not connected to a backend."
+    "addressValue": "8 Gajang-ri, Yulchon-myeon, Yeosu, Jeollanam-do, Republic of Korea (source site)"
   },
   "footer": {
     "tagline": "The clearest sip the mountains can give.",
